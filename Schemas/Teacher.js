@@ -6,13 +6,12 @@ const Teacher=new Schema({
     lastname: { type: String, required: true },
     username: { type: String, required: true },
     email:{type:String,required:true},
-    token: { type: String, required: true },
     address: { type: String, required: true },
     password:{type:String,required:true},
     loggedIn:{type:Boolean,required:false},
-    phone_number:{type:Number,required:true},
+    phone_number:{type:String,required:true},
     subject:{type:String,required:true},
-    groups:{type:Object,required:true},
+    groups:{type:String,required:true},
     rank:{type:String,required:false}
   }
   )

@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-const CONNECTION_URL="mongodb+srv://githubmuzaffar:abc12345678$@studentinfo.yhug4.mongodb.net/?retryWrites=true&w=majority&appName=StudentInfo"
+const CONNECTION_URL="mongodb+srv://muzaffar:ifromurgut2005@cluster0.v2gresd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 console.log(CONNECTION_URL)
 const connectDB=async()=>{
     try {
